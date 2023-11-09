@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colored Text with Shadow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  // Function to write colored text with shadow to the page
+  function writeColoredTextWithShadow(text, color) {
+    document.write('<p style="color: ' + color + '; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">' + text + '</p>');
+  }
+
+  // Example usage
+  writeColoredTextWithShadow('This is red text with shadow!', 'red');
+  writeColoredTextWithShadow('This is blue text with shadow!', 'blue');
+  writeColoredTextWithShadow('This is green text with shadow!', 'green');
+</script>
+
+</body>
+</html>
